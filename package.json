@@ -1,12 +1,21 @@
 {
   "name": "js-logger-icy",
-  "version": "0.0.4",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
   },
-  "author": "",
+  "author": "paopao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iecy/js-logger-icy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Iecy/js-logger-icy/issues"
+  },
+  "homepage": "https://github.com/Iecy/js-logger-icy",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^16.3.0",
