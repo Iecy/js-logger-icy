@@ -33,7 +33,7 @@ npm i js-logger-icy
 
 ```javascript
 import logger from 'js-logger-icy';
-// logger.canConsole(false);  // 全局设置 true | false;当不设置时为：true
+// logger.globalConfig({ enable: true });  // 全局设置 true | false;当不设置时为：true
 
 logger.log('%c这就输出了sss。', 'color: green');
 ```
